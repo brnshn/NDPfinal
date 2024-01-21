@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="searchBox" pref="159" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="searchBoxButton" min="-2" pref="94" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="saveButton" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="lecturer" alignment="0" pref="200" max="32767" attributes="0"/>
+                              <Component id="lecturerNumberLabel" alignment="0" pref="200" max="32767" attributes="0"/>
+                              <Component id="lecturerSurnameLabel" alignment="0" pref="200" max="32767" attributes="0"/>
+                              <Component id="lecturerDepartmentLabel" alignment="0" pref="200" max="32767" attributes="0"/>
+                              <Component id="lecturerClassesLabel" alignment="0" pref="200" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="lecturerDepartmentText" alignment="0" pref="182" max="32767" attributes="0"/>
+                              <Component id="lecturerNameText" alignment="0" pref="182" max="32767" attributes="0"/>
+                              <Component id="lecturerSurnameText" alignment="0" pref="182" max="32767" attributes="0"/>
+                              <Component id="lecturerClassesCombobox" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lecturerNumberText" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="151" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="searchBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="searchBoxButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lecturerNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lecturerNumberText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lecturerNameText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lecturer" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lecturerSurnameText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lecturerSurnameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lecturerDepartmentText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lecturerDepartmentLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lecturerClassesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lecturerClassesCombobox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="118" max="32767" attributes="0"/>
+              <Component id="saveButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lecturerDepartmentLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xd6;&#x11f;retmen B&#xf6;l&#xfc;m&#xfc;: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lecturerDepartmentText">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lecturerClassesLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xd6;&#x11f;retmenin Verdi&#x11f;i Dersler:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="lecturerClassesCombobox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="loadDataFromFile().getModel()" type="code"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="StudentRegistryForm_studentClassesCombobox"/>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lecturerNumberText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="searchBox">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="searchBoxButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Arama"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchBoxButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lecturer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xd6;&#x11f;retmen Ad&#x131;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lecturerNameText">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lecturerSurnameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xd6;&#x11f;retmen Soyad&#x131;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lecturerSurnameText">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lecturerNumberLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xd6;&#x11f;retmen No:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="saveButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kaydet"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xd6;&#x11f;retmen Ad&#x131; ile Arama:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="searchResultList">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
